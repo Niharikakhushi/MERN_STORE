@@ -6,6 +6,7 @@ import { authenticate } from "../middleware/authmiddleware.js";
 import dotenv from "dotenv";
 dotenv.config();
 const router = express.Router();
+// commenthhggfgn
 
 const JWT_SECRET = process.env.JWT_SECRET;
 
